@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: renatho@gri.fo
+  api_key:
+    secure: VVDQxJ3ltU6DQaCAJJdODIka83/wo0gZKy4B7QJB483W5GuigWDJ3dDfIVwFQ+nnj9tqyGZma87mSq/KtQ80USu/eMOXFEllTnTd84w+uQB1ytKTdY5XYFpZggT/ehH8A/aJ+DB97kXGhdRtFxKcaOkyqga+HRpY69C6161HBs7Bg64i7aQjUMzo/VCYR2PSReXDHL9HfEbAx9w4ZNBvFVRBPlPSlHUvs7Rw2YZ/vVKZFDFBH5d14jiDdE+FdgAidKfZEbtd+dcUv71tiUbXDFh0WmY6jCxXHXDwczJTg8waRFEOAAY8m5WX2SBHJYDb84xTe35iKaNjAJKksBuVYQIEnjMqCc6Po2Jp0o9MZOLpT4yo1ke34y9et5IWoJR3b16/7dIh+4PXELa7PspDzQiNDOIFsWkpxiFshQ6Bu5RSdybfR4tErB2i9Cqx3RGn6SJpTjaqeuvgkW9VPnfecc9ajToFT0xZmDa35phE1qdhUhcdMh3ff7VIxu1sGK8IvF/Xf8rUPXE/xCQZAI5ABCWLvj2atf+XV/uQT4f9sVuW4w+dn4EuGyLb+MSrMlgsNL66dwSfN7dFzCQ7cFkwQYEliUJn1aicTcoeFbp9i0qZQ8SVc4cYd7uxa83KHC1W595JDMDk1tLIW/dYG585qBsb2V5LBwVFcWLyg5+kEtw=
+  on:
+    tags: true
+    repo: grifo/redux-reducer-maker
