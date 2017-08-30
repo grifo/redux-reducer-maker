@@ -1,0 +1,31 @@
+{
+  "name": "redux-reducer-maker",
+  "version": "0.0.1",
+  "description": "A utility to create common reducers",
+  "main": "src/index.js",
+  "repository": "https://github.com/grifo/redux-reducer-maker",
+  "author": "Renatho - Grifo <renatho@gri.fo> (http://gri.fo)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "NODE_ENV=test jest --config .jest.json",
+    "test:watch": "yarn test -- --watch",
+    "test:coverage": "yarn test -- --coverage",
+    "prepush": "yarn run test:coverage && yarn run lint"
+  },
+  "keywords": [
+    "redux",
+    "reducer"
+  ],
+  "bugs": {
+    "url": "https://github.com/grifo/redux-reducer-maker/issues"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-airbnb": "^2.4.0",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^20.0.4"
+  }
+}
